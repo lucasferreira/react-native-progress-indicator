@@ -1,7 +1,7 @@
 # react-native-progress-indicator
 React Native cross-plataform module to create Progress Indicators in your apps.
 
-This module universalized the use of RN modules ActivityIndicatorIOS, ProgressViewIOS and ProgressBarAndroid into a single reusefull View for using both in Android and iOS platforms.
+This module universalized the use of natives modules ActivityIndicatorIOS, ProgressViewIOS and ProgressBarAndroid into a single re-useful View for using both in Android and iOS platforms, the let you able to write a single code base progress indicators.
 
 ### Installation
 
@@ -20,6 +20,13 @@ import ProgressIndicator from 'react-native-progress-indicator';
 // or in progressbar mode
 <ProgressIndicator progress={0.7} />
 ```
+
+All of others props from native modules are available to use in ProgressIndicator module. Please in the RN docs: 
+https://facebook.github.io/react-native/docs/activityindicatorios.html
+
+https://facebook.github.io/react-native/docs/progressviewios.html
+
+https://facebook.github.io/react-native/docs/progressbarandroid.html
 
 ## License
 MIT
