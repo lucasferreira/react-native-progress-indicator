@@ -1,0 +1,30 @@
+{
+  "name": "react-native-progress-indicator",
+  "version": "1.0.0",
+  "description": "React Native cross-plataform module to create Progress Indicators in your apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "progress",
+    "indicator",
+    "progressbar",
+    "activity",
+    "loading",
+    "native",
+    "ios",
+    "universal",
+    "android"
+  ],
+  "author": "Lucas Ferreira <contato@lucasferreira.com>",
+  "license": "MIT",
+  "repository": "https://github.com/lucasferreira/react-native-progress-indicator",
+  "bugs": "https://github.com/lucasferreira/react-native-progress-indicator/issues",
+  "peerDependencies": {
+    "react-native": ">=0.19"
+  }
+}
