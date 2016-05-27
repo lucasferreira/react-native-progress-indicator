@@ -49,10 +49,4 @@ const ProgressIndicator = (props) => {
   }
 };
 
-ProgressIndicator.propTypes = {
-  ...ProgressBarAndroid.propTypes,
-  ...ProgressViewIOS.propTypes,
-  ...ActivityIndicatorIOS.propTypes,
-};
-
 module.exports = ProgressIndicator;
