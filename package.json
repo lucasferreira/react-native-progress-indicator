@@ -1,6 +1,6 @@
 {
   "name": "react-native-progress-indicator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native cross-plataform module to create Progress Indicators in your apps",
   "main": "index.js",
   "scripts": {

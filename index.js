@@ -9,13 +9,14 @@ import {
   ActivityIndicatorIOS,
   ProgressBarAndroid,
   ProgressViewIOS,
+  View,
   Platform
 } from 'react-native';
 
 const _cleanInvalidProps = (props, validProps) => {
   let newProps = {};
   for(let k in props) {
-    if(k in validProps) newProps[k] = props[k];
+    if(validProps.hasOwnProperty(k)) newProps[k] = props[k];
   }
 
   return newProps;
@@ -46,6 +47,12 @@ const ProgressIndicator = (props) => {
       return <ActivityIndicatorIOS {...passProps} />;
     }
   }
+};
+
+ProgressIndicator.propTypes = {
+  ...ProgressBarAndroid.propTypes,
+  ...ProgressViewIOS.propTypes,
+  ...ActivityIndicatorIOS.propTypes,
 };
 
 module.exports = ProgressIndicator;
